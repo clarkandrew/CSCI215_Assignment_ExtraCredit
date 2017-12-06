@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Node.js Test</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+
+
+</head>
+
+
+<body>
+
+    <button id="reqButton">Send Get Request</button>
+
+
+
+</body>
+
+
+<script>
+    // Button listener
+    var reqButton = document.getElementById("reqButton");
+    reqButton.addEventListener("click", function () {
+        sendRequest();
+    });
+    
+    // function that sends request to node server
+    function sendRequest() {
+        $.get("../nodeapp", function (data) {
+            alert(data);
+        })
+    }
+</script>
+
+
+</html>

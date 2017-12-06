@@ -1,0 +1,22 @@
+{
+  "name": "ecnode",
+  "description": "An assignment to receive extra credit",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clarkandrew/CSCI215_Assignment_ExtraCredit.git"
+  },
+  "author": "Andrew Clark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clarkandrew/CSCI215_Assignment_ExtraCredit/issues"
+  },
+  "homepage": "https://github.com/clarkandrew/CSCI215_Assignment_ExtraCredit#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
